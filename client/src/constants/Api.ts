@@ -1,5 +1,7 @@
+import AppEnv from "../utils/AppEnv";
+
 class API_URL {
-  static readonly BASE = "http://localhost:3001/";
+  static readonly BASE = AppEnv.getAPIUrl();
 
   private static createUrl = (url: string) => `${API_URL.BASE}${url}`;
 
