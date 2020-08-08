@@ -77,7 +77,6 @@
   "scripts": {
     "start:dev": "env-cmd -f .env.development node scripts/start.js",
     "start:prod": "env-cmd -f .env.production node scripts/start.js",
-    "build:dev": "env-cmd -f .env.development node scripts/build.js",
     "build:prod": "env-cmd -f .env.production node scripts/build.js",
     "test": "node scripts/test.js"
   },
