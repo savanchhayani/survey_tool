@@ -64,7 +64,7 @@ class SurveyFormHelper {
       errors.email = "Please enter valid email";
     }
 
-    if (form.name == "") {
+    if (form.name === "") {
       errors.name = "Please enter your name";
     }
 
